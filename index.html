@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 day 1</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        box-sizing:border-box;
+    }
+    header{
+        background-color: black;
+        color:rgb(71, 71, 71);
+        font-size: 1.2rem; 
+        padding:0.8rem 5rem;
+        display: flex;
+        flex-direction: row;
+        gap:2rem;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    header>div:first-child{
+        font-size: 1.5rem; 
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    
+    main{
+        padding:1rem 20rem ;
+        background-color: rgb(213, 213, 213);
+    }
+
+    .heading{
+        display: flex;
+        flex-direction: row;
+        gap:1rem;
+        align-items: center;
+      
+    }
+
+    .heading p:first-child{
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+        grid-gap: 20px;
+    }
+
+    .card{
+        background-color: white;
+        padding:10px;
+       
+    }
+
+    .card >h3{
+        color:rgb(30, 202, 255)
+    }
+    .card>img{
+        width: 100%;
+    }
+
+    @media (max-width:900px){
+        main{
+            padding:1rem;
+        }
+        header{
+            font-size:0.6rem;
+            padding:0rem;
+        }
+        header>div:first-child{
+        font-weight: 100;
+        font-size:0.7rem;
+    }
+    }
+</style>
+<body>
+    <header>
+       <div>Layout 1</div>
+        <div>About</div>
+        <div>Services</div>
+        <div>Contact</div>
+    </header>
+    <main>
+        <div class="heading">
+            <p>Page Heading</p>
+            <p>Secondary heading</p>
+        </div>
+        <hr>
+        <div class="cards">
+            <div class="card">
+                <img src="./1.png" alt="image">
+                
+                <h3>Project Name</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, qui! Lorem ipsum dolor sit</p>
+            </div>
+            <div class="card">
+                <img src="./1.png" alt="image">
+                
+                <h3>Project Name</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, qui! Lorem ipsum dolor sit</p>
+            </div>
+            <div class="card">
+                <img src="./1.png" alt="image">
+                
+                <h3>Project Name</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, qui! Lorem ipsum dolor sit</p>
+            </div>
+            <div class="card">
+                <img src="./1.png" alt="image">
+                
+                <h3>Project Name</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, qui! Lorem ipsum dolor sit</p>
+            </div>
+            <div class="card">
+                <img src="./1.png" alt="image">
+                
+                <h3>Project Name</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, qui! Lorem ipsum dolor sit</p>
+            </div>
+            <div class="card">
+                <img src="./1.png" alt="image">
+                
+                <h3>Project Name</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, qui! Lorem ipsum dolor sit</p>
+            </div>
+            <div class="card">
+                <img src="./1.png" alt="image">
+                
+                <h3>Project Name</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, qui! Lorem ipsum dolor sit</p>
+            </div>
+            <div class="card">
+                <img src="./1.png" alt="image">
+                
+                <h3>Project Name</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, qui! Lorem ipsum dolor sit</p>
+            </div>
+            <div class="card">
+                <img src="./1.png" alt="image">
+                
+                <h3>Project Name</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, qui! Lorem ipsum dolor sit</p>
+            </div>
+           
+            
+        </div>
+    </main>
+</body>
+</html>
